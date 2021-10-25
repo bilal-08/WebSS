@@ -4,7 +4,6 @@ const pdf = require('./src/pdf');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// app.set('views',);
 
 app.get('/',(req,res)=>{
     res.send('Hello')

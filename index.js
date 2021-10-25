@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // app.set('views',);
 
 app.get('/',(req,res)=>{
-    res.send(`<Hello`)
+    res.send('Hello')
 });
 app.get('/image', async (req,res)=>{
 
